@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-spacing: 10px;
+}
+
+#calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#calculator {
+  height: 60vh;
+  font-size: 30px;
+}
+
+td {
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+}
+
+#display {
+  font-size: 8vw;
+  min-height: 20px;
+  font-family: monospace;
+  text-align: right;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#history {
+  min-width: 10px;
+  font-size: 1rem;
+  text-align: right;
+  padding-left: 20px;
+  padding-right: 20px;
+}
